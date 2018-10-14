@@ -15,7 +15,7 @@ function currentLine(line) {
       lineIsCurrently += `${i+1}. ${line[i]}`;
     }
   } else {
-    lineIsCurrently + " empty.";
+    lineIsCurrently += " empty.";
   }
   return lineIsCurrently;
 }
