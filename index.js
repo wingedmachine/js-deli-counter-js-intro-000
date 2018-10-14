@@ -4,5 +4,5 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line) {
-  return line.shift();
+  return `Currently serving ${line.shift()}`;
 }
