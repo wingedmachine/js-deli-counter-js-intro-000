@@ -12,7 +12,7 @@ function currentLine(line) {
   if(line.length > 0) {
     for(var i = 0; i < line.length; i++) {
       lineIsCurrently += i === 0 ? ": " : ", "
-      lineIsCurrently += `${i+1}`. ${line[i]},
+      lineIsCurrently += `${i+1}. ${line[i]}`,
     }
   } else {
     return lineIsCurrently + " empty.";
